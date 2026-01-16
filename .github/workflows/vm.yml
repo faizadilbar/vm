@@ -1,0 +1,14 @@
+name: Online VM
+
+on: workflow_dispatch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check system
+        run: |
+          uname -a
+          lsb_release -a
+          free -h
+git status
