@@ -1,0 +1,17 @@
+name: Secondary VM
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check system
+        run: |
+          echo "Secondary VM details"
+          uname -a
+          lsb_release -a
+          free -h
+          df -h
+          nproc
