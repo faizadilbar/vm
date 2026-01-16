@@ -11,4 +11,4 @@ jobs:
           uname -a
           lsb_release -a
           free -h
-git status
+
