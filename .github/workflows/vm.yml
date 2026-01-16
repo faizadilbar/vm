@@ -12,5 +12,3 @@ jobs:
           uname -a
           free -h
           df -h
-
-
