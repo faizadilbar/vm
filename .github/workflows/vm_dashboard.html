@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>VM Dashboard</title>
+  <style>
+    body { font-family: Arial; margin: 20px; }
+    h1 { color: teal; }
+    table { border-collapse: collapse; width: 60%; }
+    td, th { border: 1px solid #ccc; padding: 10px; text-align: left; }
+  </style>
+</head>
+<body>
+  <h1>VM Dashboard</h1>
+  <table>
+    <tr><th>VM Name</th><td>{{ vm_name }}</td></tr>
+    <tr><th>CPU Cores</th><td>{{ cpu }}</td></tr>
+    <tr><th>RAM</th><td>{{ ram }}</td></tr>
+    <tr><th>Disk</th><td>{{ disk }}</td></tr>
+  </table>
+</body>
+</html>
